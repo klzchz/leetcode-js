@@ -1,5 +1,5 @@
 function twoSum(nums, target) {
-    let prevMap = {}; // Armazena valores já vistos (val -> index)
+    const prevMap = {}; // Armazena valores já vistos (val -> index)
     
     for (let i = 0; i < nums.length; i++) {
         let diff = target - nums[i]; // Diferença necessária para formar a soma
