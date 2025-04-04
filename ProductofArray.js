@@ -2,6 +2,7 @@ function productExceptSelf(nums) {
     const res = new Array(nums.length).fill(1); // Resultado começa com tudo 1
 
     let prefix = 1;
+    
 
     // 1ª passagem: prefixo da esquerda
     for (let i = 0; i < nums.length; i++) {
